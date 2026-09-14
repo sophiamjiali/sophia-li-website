@@ -1,0 +1,28 @@
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  color: #222;
+}
+img.headshot {
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+h1 { margin-bottom: 0; }
+.subtitle { color: #555; margin-top: 4px; }
+.contact a { margin-right: 12px; }
+nav {
+  clear: both;
+  margin: 20px 0;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+nav a { margin-right: 15px; text-decoration: none; color: #0645ad; }
+section { margin-bottom: 30px; }
+h2 { border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+.entry { margin-bottom: 15px; }
+.entry .meta { color: #555; font-size: 0.9em; }

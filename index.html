@@ -13,132 +13,232 @@
 </head>
 <body>
 
-<!-- Personal Header -->
-<div class="left">
-<img class="headshot" src="images/headshot.jpg" alt="Sophia Mengjia Li">
-<h1>Sophia Mengjia Li</h1>
-<p class="subtitle"> M.Sc Candidate in Computer Science</p>
-<p class="subtitle">
-    Master of Science in Applied Computing<br>
-    Artificial Intelligence in Healthcare (Focus)
-</p>
-<p class="subtitle"> University of Toronto</p>
+  <!-- Left Column -->
+  <div class="left">
+    
+    <!-- Personal Header -->
+    <img class="headshot" src="images/headshot.jpg" alt="Sophia Mengjia Li">
+    <h1>Sophia Mengjia Li</h1>
+    <p class="subtitle"> M.Sc Candidate in Computer Science</p>
+    <p class="subtitle">
+        Master of Science in Applied Computing, Artificial Intelligence in Healthcare (Focus)
+    </p>
+    <p class="subtitle"> University of Toronto</p>
 
-<!-- Contact Information -->
-<p class="contact">
-  <a href="https://www.linkedin.com/in/sophia-mengjia-li/" target="_blank" aria-label="LinkedIn">
-    <i class="fa-brands fa-linkedin"></i>
-  </a>
+    <!-- Contact Information -->
+    <p class="contact">
+      <a href="https://www.linkedin.com/in/sophia-mengjia-li/" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
 
-  <a href="mailto:sophiali@cs.toronto.edu" aria-label="Email">
-    <i class="fa-solid fa-envelope"></i>
-  </a>
+      <a href="mailto:sophiali@cs.toronto.edu" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
 
-  <a href="https://scholar.google.ca/citations?user=QFvFucAAAAAJ" target="_blank" aria-label="Google Scholar">
-    <i class="fa-solid fa-graduation-cap"></i>
-  </a>
+      <a href="https://scholar.google.ca/citations?user=QFvFucAAAAAJ" target="_blank" aria-label="Google Scholar">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </a>
 
-  <a href="https://github.com/sophiamjiali" target="_blank" aria-label="GitHub">
-    <i class="fa-brands fa-github"></i>
-  </a>
-</p>
+      <a href="https://github.com/sophiamjiali" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </p>
 
-<!-- Table of Contents -->
-<nav>
-<a href="#about">ABOUT ME</a>
-<a href="#education">EDUCATION</a>
-<a href="#publications">PUBLICATIONS</a>
-<a href="#projects">PROJECTS</a>
-<a href="#research-experience">RESEARCH EXPERIENCE</a>
-<a href="#professional-experience">PROFESSIONAL EXPERIENCE</a>
-<a href="#teaching">TEACHING</a>
-</nav>
-</div>
+    <!-- Table of Contents -->
+    <nav>
+      <a href="#about" data-tab="about-tab">ABOUT ME</a>
+      <a href="#education" data-tab="about-tab">EDUCATION</a>
+      <a href="#publications" data-tab="publications-tab">PUBLICATIONS</a>
+      <a href="#projects" data-tab="projects-tab">PROJECTS</a>
+      <a href="#research-experience" data-tab="experience-tab">RESEARCH EXPERIENCE</a>
+      <a href="#industry-experience" data-tab="experience-tab">INDUSTRY EXPERIENCE</a>
+      <a href="#teaching" data-tab="experience-tab">TEACHING</a>
+    </nav>
+  </div>
 
-<!-- About Me -->
-<div class="right">
-<section id="about">
-<h2>ABOUT ME</h2>
-<p>Short bio goes here — who you are, what you work on, and who you work with.</p>
-</section>
+  <!-- Right Column -->
+  <div class="right">
 
-<!-- Education -->
-<section id="education">
-<h2>EDUCATION</h2>
-<div class="entry">
-<strong>Master of Science in Applied Computing (MScAC)</strong> — <span class="body">University of Toronto</span> — <span class="meta">September 2026 – December 2027</span><br>
-    Department of Computer Science, Faculty of Medicine  •  Artificial Intelligence in Healthcare (Focus)
-</div>
-<div class="entry">
-<strong>Honours Bachelor of Science (HBSc)</strong> — <span class="body">University of Toronto</span> — <span class="meta">September 2022 – April 2026</span><br>
-    Department of Computer Science  •  Bioinformatics & Computational Biology, Computer Science<br>
-    GPA: 3.9/4.0  •  Dean’s List Scholar (2022 – 2026)  •  B. Arthur Bensley Scholarship in Life Sciences (2025)
-</div>
-</section>
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="about-tab">ABOUT ME</button>
+      <button class="tab-btn" data-tab="experience-tab">EXPERIENCE</button>
+      <button class="tab-btn" data-tab="projects-tab">PROJECTS</button>
+      <button class="tab-btn" data-tab="publications-tab">PUBLICATIONS</button>
+      <button class="tab-btn" data-tab="cv-tab">CV / TRANSCRIPT</button>
+    </div>
 
-<!-- Publications -->
-<section id="publications">
-<h2>PUBLICATIONS</h2>
-<div class="entry">
-<strong>Paper Title</strong><br>
-      Author One, Author Two, You (Venue, Year)<br>
-      One-line description of the paper.
-</div>
-<div class="entry">
-<strong>Paper Title</strong><br>
-      Author One, Author Two, You (Venue, Year)<br>
-      One-line description of the paper.
-</div>
-</section>
+    <!-- ABOUT ME TAB -->
+    <section id="about-tab" class="tab-content active">
 
-<!-- Projects -->
-<section id="projects">
-<h2>PROJECTS</h2>
-<div class="entry">
-<strong>Project Name</strong><br>
-      Short description of the project.
-<a href="files/project-report.pdf" target="_blank">[PDF]</a>
-</div>
-</section>
+      <!-- About Me -->
+      <section id="about">
+        <h2>ABOUT ME</h2>
+        <p>Short bio goes here — who you are, what you work on, and who you work with.</p>
+        <span><strong>Research Interests:</strong> <span class="body">Computational Pathology, Generative Modeling, Computer Vision, Deep Learning, Machine Learning</span></span>
+      </section>
 
-<!-- Research Experience -->
-<section id="research-experience">
-<h2>RESEARCH EXPERIENCE</h2>
-<div class="entry">
-<strong>Role</strong> — <span class="meta">Start – End</span><br>
-      Organization
-<ul>
-<li>Bullet describing responsibility or achievement.</li>
-</ul>
-</div>
-</section>
+      <!-- Education -->
+      <section id="education">
+        <h2>EDUCATION</h2>
+        <div class="entry">
+          <div class="entry-header">
+            <span><strong>Master of Science in Applied Computing (MScAC)</strong> — <span class="body">University of Toronto</span></span>
+            <span class="meta">September 2026 – December 2027</span>
+          </div>
+          <span class="entry-detail">Department of Computer Science, Faculty of Medicine  •  Artificial Intelligence in Healthcare (Focus)</span>
+        </div>
 
-<!-- Professional Experience -->
-<section id="professional-experience">
-<h2>PROFESSIONAL EXPERIENCE</h2>
-<div class="entry">
-<strong>Role</strong> — <span class="meta">Start – End</span><br>
-      Organization
-<ul>
-<li>Bullet describing responsibility or achievement.</li>
-</ul>
-</div>
-</section>
+        <div class="entry">
+          <div class="entry-header">
+            <span><strong>Honours Bachelor of Science (HBSc)</strong> — <span class="body">University of Toronto</span></span>
+            <span class="meta">September 2022 – December 2026</span>
+          </div>
+          <span class="entry-detail">
+            Department of Computer Science  •  Bioinformatics & Computational Biology, Computer Science<br>
+            GPA: 3.9/4.0  •  Dean's List Scholar (2022 – 2026)  •  B. Arthur Bensley Scholarship in Life Sciences (2025)
+          </span>
+        </div>
+      </section>
+    </section>
 
-<!-- Teaching -->
-<section id="teaching">
-<h2>TEACHING</h2>
-<div class="entry">
-<strong>Role</strong> — <span class="meta">Start – End</span><br>
-      Organization
-<ul>
-<li>Bullet describing responsibility or achievement.</li>
-</ul>
-</div>
-</section>
+    <!-- EXPERIENCE TAB -->
+    <section id="experience-tab" class="tab-content">
+      
+      <!-- Research Experience -->
+      <section id="research-experience">
+        <h2>RESEARCH EXPERIENCE</h2>
 
+        <div class="entry">
+          <div class="entry-header">
+            <span><strong>Computational Pathology Machine Learning Researcher</strong></span>
+            <span class="meta">September 2025 – Present</span>
+          </div>
+          <span class="entry-org">Princess Margaret Cancer Centre, UHN —  Computational Cancer Genomics Lab, Dr. Sushant Kumar
+          </span>
+          <ul>
+            <li>Designed a multi-modal cascaded diffusion model integrating RNA, CNA, RPPA, and methylation foundation models to synthesize tumour histology from pan-cancer data, achieving 83% match in morphological diversity across cancer types using PyTorch Lightning</li>
+            <li>Led development of a 24.4M-parameter UNet segmentation pipeline and QuPath extensions trained on 10M patches for automated vessel segmentation and fibroblast quantification, achieving 92% Dice score and pathologist-approved CHIP risk-group classification</li>
+            <li>Built and deployed a Python package for TCGA-native DNA methylation data engineering, enabling ML-ready preprocessing at HPC scale 26% faster than current benchmarked research toolkits, with automated reproducibility audits and logging using Python</li>
+          </ul>
+        </div>
 
-</div>
+        <div class="entry">
+          <div class="entry-header">
+            <span><strong>Spatial Proteomics Research Intern</strong></span>
+            <span class="meta">May 2025 – February 2026</span>
+          </div>
+          <span class="entry-org">Lunenfeld-Tanenbaum Research Institute (LTRI), Mount Sinai — Campbell Lab, Dr. Kieran Campbell</span>
+          <ul>
+            <li>Built the first end-to-end spatial proteomics toolkit (ResNet-34 encoder convolutional autoencoder) optimized for highly multiplexed IMC data, reducing runtime by 30% over existing non-optimized toolkits using Python and PyTorch Lightning; cited in paper at Nature</li>
+            <li>Designed novel stratified, morphology-specific virtual ROI sampling protocol benchmarking TMA-IMC against WS-IMC as ground-truth for capturing tumour microenvironment spatial heterogeneity in PDAC using Python and PyTorch Lightning; cited in paper at Nature</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span><strong>Computational Biology Research Intern</strong></span>
+            <span class="meta">September 2024 – July 2025</span>
+          </div>
+          <span class="entry-org">Massachusetts General Hospital (MGH), Harvard Medical School — Sadreyev Lab, Dr. Ruslan I Sadreyev</span>
+          <ul>
+            <li>Engineered multi-modal AML sequencing workflows integrating the largest cross-project methylation/RNA-seq cohort to date (TCGA, TARGET, BEATAML1/2), applying fuzzy K-means clustering (K=3 DMGs, K=5 DEGs) for integrative differential subtype analysis using R</li>
+            <li>Identified three novel candidate biomarkers and potential drivers of aggression in the largest AML molecular subtype (NPM1, 30%)</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Industry Experience -->
+      <section id="industry-experience">
+        <h2>INDUSTRY EXPERIENCE</h2>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span><strong>Lead Systems Software Engineer</strong></span>
+            <span class="meta">May 2024 – Present</span>
+          </div>
+          <span class="entry-org">Victoria University, University of Toronto</span>
+          <ul>
+            <li>Led end-to-end design, development, and deployment of a university-scale intranet platform, encompassing architectural redesign, full database restructure and migration, data retention protocol design, and Microsoft 365 migration using PostgreSQL and MongoDB</li>
+            <li>Redesigned backend systems architecture and normalized database schema, reducing storage redundancy by 17% using PostgreSQL</li>
+            </ul>
+        </div>
+      </section>
+
+      <!-- Teaching -->
+      <section id="teaching">
+        <h2>TEACHING</h2>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span><strong>Teaching Assistant</strong></span>
+            <span class="meta">September 2026 – January 2027</span>
+          </div>
+          <span class="entry-org">University to Toronto, Department of Computer Science</span>
+          <ul>
+            <li>CSC108H1: Introduction to Computer Programming</li>
+          </ul>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- PROJECTS TAB -->
+    <section id="projects-tab" class="tab-content">
+
+      <!-- Projects -->
+      <section id="projects">
+        <h2>PROJECTS</h2>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span><strong>...</strong></span>
+            <span class="meta">September 2025 – Present</span>
+          </div>
+          <span class="entry-org">...
+          </span>
+          <ul>
+            <li>...</li>
+            <li>...</li>
+            <li>...</li>
+          </ul>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- PUBLICATIONS TAB -->
+    <section id="publications-tab" class="tab-content">
+
+      <!-- Publications -->
+      <section id="publications">
+        <h2>PUBLICATIONS</h2>
+        <div class="entry">
+          <strong>Paper Title</strong><br>
+                Author One, Author Two, You (Venue, Year)<br>
+                One-line description of the paper.
+        </div>
+        <div class="entry">
+          <strong>Paper Title</strong><br>
+                Author One, Author Two, You (Venue, Year)<br>
+                One-line description of the paper.
+        </div>
+      </section>
+    </section>
+
+    <!-- CV/RESUME TAB -->
+    <section id="cv-tab" class="tab-content">
+      <h2>PUBLICATIONS</h2>
+        <div class="entry">
+          <strong>Paper Title</strong><br>
+                Author One, Author Two, You (Venue, Year)<br>
+                One-line description of the paper.
+        </div>
+    </section>
+
+  </div>
+
+  <script src="js/tabs.js"></script>
 
 </body>
 </html>

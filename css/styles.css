@@ -177,8 +177,29 @@ h2 { border-bottom: 1px solid #ccc; padding-bottom: 4px; }
 .entry-org {
   display: block;
   color: #3d3d3d;
+  font-size: 16px;
 }
 
-.entry .meta { 
+.entry-body {
+  font-weight: 300;
+  font-size: 0.9em;
   color: #3d3d3d;
+}
+
+.entry-links {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #3d3d3d;
+}
+
+.entry-body {
+  font-size: 12px !important;
+}
+
+.entry-links {
+  font-size: 12px !important;
+}
+
+.entry-org {
+  font-size: 12px !important;
 }

@@ -17,10 +17,11 @@
   --fw-bold: 700;
   --fw-heavy: 800;
 
-  --fs-small: 12px;
+  --fs-small: 14px;
+  --fs-med: 16px;
   --fs-nav: 20px;
 
-  --gap-sm: 10px;
+  --gap-sm: 5px;
   --gap-md: 20px;
   --gap-lg: 30px;
 }
@@ -77,6 +78,7 @@ h1 {
 }
 
 .subtitle {
+  font-size: var(--fs-med);
   font-weight: var(--fw-light);
   color: var(--color-text-muted);
   margin: 4px 0;
@@ -181,6 +183,7 @@ h2 {
   justify-content: space-between;
   align-items: baseline;
   gap: var(--gap-sm);
+  font-size: var(--fs-med);
 }
 
 .entry-org,
@@ -192,8 +195,8 @@ h2 {
   font-size: var(--fs-small);
 }
 
-.entry-org { display: block; }
 .entry-links { margin-top: var(--gap-sm); }
+.entry-body { color: var(--color-text-meta); }
 
 .entry ul {
   margin-top: 4px;
@@ -208,4 +211,23 @@ h2 {
 .meta {
   color: var(--color-text-meta);
   font-size: 0.9em;
+}
+
+.cv-links {
+  list-style: none;
+  padding: 0;
+}
+ 
+.cv-links li {
+  margin-bottom: var(--gap-sm);
+}
+ 
+.cv-links a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+}
+ 
+.cv-links a:hover {
+  color: var(--color-accent-hover);
 }
